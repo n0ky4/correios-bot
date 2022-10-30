@@ -1,0 +1,26 @@
+{
+    "name": "correios-bot",
+    "version": "1.0.0",
+    "description": "rastreia encomendas dos correios e envia para um webhook no discord",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "author": "Gustavo Rocha",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.1.3",
+        "cron": "^2.1.0",
+        "discord.js": "^14.6.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "gulog": "^2.0.0",
+        "helmet": "^6.0.0",
+        "morgan": "^1.10.0",
+        "puppeteer": "^19.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
